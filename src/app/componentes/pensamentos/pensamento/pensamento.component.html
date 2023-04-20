@@ -5,9 +5,9 @@
 
   <div class="acoes">
     <button class="botao-editar">
-      <img src="/assets/imagens/icone-editar.png" alt="icone de editar">
+      <img src="/assets/imagens/icone-editar.png" routerLink="/pensamentos/editarPensamento/{{ pensamento.id }}" alt="icone de editar">
     </button>
-    <button class="botao-excluir">
+    <button class="botao-excluir" routerLink="/pensamentos/excluirPensamento/{{ pensamento.id }}">
       <img src="/assets/imagens/icone-excluir.png" alt="icone de excluir">
     </button>
   </div>
